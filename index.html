@@ -258,7 +258,7 @@
 
     <div class="b-example-divider"></div>
 
-    <div class="container">
+    <div class="container overflow-auto" >
         <header>
             <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
                 <h1 class="display-4 fw-normal text-body-emphasis">Главная</h1>
@@ -297,11 +297,11 @@
                         <div class="mb-4">
                             <label for="name" class="form-label">Имя</label>
                             <input type="text" class="form-control" id="name"
-                                   aria-describedby="emailHelp" placeholder="Введите имя">
+                                   name="name" placeholder="Введите имя">
                         </div>
                         <div class="mb-4">
                             <label for="email" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="email"
+                            <input name="email" type="email" class="form-control" id="email"
                                    aria-describedby="emailHelp" placeholder="Введите email">
                         </div>
                         <button type="submit" class="w-30 btn btn-success">Отправить</button>
@@ -350,7 +350,7 @@
                     </div>
                 </div>
                 <!--                Контент с таблицей-->
-                <table class="table">
+                <table class="table overflow-auto">
                     <thead>
                     <tr>
                         <th scope="col">Номер</th>
